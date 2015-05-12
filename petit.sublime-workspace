@@ -36,26 +36,10 @@
 	"buffers":
 	[
 		{
-			"file": "gruntfile.js",
-			"settings":
-			{
-				"buffer_size": 4795,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "README.md",
-			"settings":
-			{
-				"buffer_size": 8290,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "config/env/development.js",
 			"settings":
 			{
-				"buffer_size": 1394,
+				"buffer_size": 1392,
 				"line_ending": "Windows"
 			}
 		},
@@ -68,31 +52,19 @@
 			}
 		},
 		{
-			"contents": "Package Control Messages\n========================\n\nPackage Control:\n---------------\n\n  Version 3.0 Release Notes\n  \n  \n  **** Windows Sublime Text 3 Users ****\n  \n  Due to a bug in Package Control 2.0, Windows ST3 users will need to open the\n  Sublime Text console (ctrl+`) and execute the following Python to properly\n  upgrade. All other users may ignore this part of the message.\n  \n  Make sure NOT to copy the leading two spaces, or an \"unexpected indent\" error\n  will occur.\n  \n  import urllib.request,os; pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')\n  \n  ********\n  \n  \n  Package Control 3.0 adds a bunch of polish, improving the Sublime Text\n  experience for users and package developers:\n  \n   - improved upgrades of themes, color schemes and syntaxes\n   - dependency support\n   - SSL for Linux\n   - new secondary Windows HTTP backend\n   - patches for Python in Sublime Text 2 on Windows\n   - commands to easily remove channels and repositories\n   - an events API for packages\n   - improved documentation\n  \n  \n  As of July 2014, I now work for myself. This has allowed me to spend more time\n  working on open source software, including Package Control. If you appreciate\n  the work I've done, please consider a small donation. If even 5% of regular\n  users donated the price of a coffee or beer, that would cover quite a bit of\n  my development time! See https://packagecontrol.io/about for options.\n  \n  \n  Some recent Package Control stats:\n  \n   - every weekday over 1M JSON requests hit the channel server\n   - in December, the channel server will transmit 4TB+ of compressed JSON\n   - users have installed, upgraded or removed 85M+ packages since late 2011\n  \n  \n  Read more about the release at:\n  \n  https://packagecontrol.io/news#2014-12-23-Package_Control_30_Released\n  \n",
+			"file": "modules/core/client/views/header.client.view.html",
 			"settings":
 			{
-				"buffer_size": 2331,
-				"line_ending": "Windows",
-				"name": "Package Control Messages",
-				"scratch": true
+				"buffer_size": 2862,
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "Searching 36907 files for \"ng-app\"\n\nUnable to open C:\\Projects\\Web\\Mean\\0.4.0\\petit\\node_modules\\forever\\node_modules\\flatiron\\node_modules\\broadway\\node_modules\\winston\\node_modules\\request\\node_modules\\form-data\\node_modules\\combined-stream\\node_modules\\delayed-stream\\test\\integration\\test-delayed-http-upload.js\nUnable to open C:\\Projects\\Web\\Mean\\0.4.0\\petit\\node_modules\\forever\\node_modules\\flatiron\\node_modules\\broadway\\node_modules\\winston\\node_modules\\request\\node_modules\\form-data\\node_modules\\combined-stream\\node_modules\\delayed-stream\\test\\integration\\test-delayed-stream-auto-pause.js\nUnable to open C:\\Projects\\Web\\Mean\\0.4.0\\petit\\node_modules\\forever\\node_modules\\flatiron\\node_modules\\broadway\\node_modules\\winston\\node_modules\\request\\node_modules\\form-data\\node_modules\\combined-stream\\node_modules\\delayed-stream\\test\\integration\\test-delayed-stream-pause.js\nUnable to open C:\\Projects\\Web\\Mean\\0.4.0\\petit\\node_modules\\forever\\node_modules\\flatiron\\node_modules\\broadway\\node_modules\\winston\\node_modules\\request\\node_modules\\form-data\\node_modules\\combined-stream\\node_modules\\delayed-stream\\test\\integration\\test-handle-source-errors.js\nUnable to open C:\\Projects\\Web\\Mean\\0.4.0\\petit\\node_modules\\forever\\node_modules\\forever-monitor\\node_modules\\broadway\\node_modules\\winston\\node_modules\\request\\node_modules\\form-data\\node_modules\\combined-stream\\node_modules\\delayed-stream\\test\\integration\\test-delayed-http-upload.js\nUnable to open C:\\Projects\\Web\\Mean\\0.4.0\\petit\\node_modules\\forever\\node_modules\\forever-monitor\\node_modules\\broadway\\node_modules\\winston\\node_modules\\request\\node_modules\\form-data\\node_modules\\combined-stream\\node_modules\\delayed-stream\\test\\integration\\test-delayed-stream-auto-pause.js\nUnable to open C:\\Projects\\Web\\Mean\\0.4.0\\petit\\node_modules\\forever\\node_modules\\forever-monitor\\node_modules\\broadway\\node_modules\\winston\\node_modules\\request\\node_modules\\form-data\\node_modules\\combined-stream\\node_modules\\delayed-stream\\test\\integration\\test-delayed-stream-pause.js\nUnable to open C:\\Projects\\Web\\Mean\\0.4.0\\petit\\node_modules\\forever\\node_modules\\forever-monitor\\node_modules\\broadway\\node_modules\\winston\\node_modules\\request\\node_modules\\form-data\\node_modules\\combined-stream\\node_modules\\delayed-stream\\test\\integration\\test-delayed-stream.js\nUnable to open C:\\Projects\\Web\\Mean\\0.4.0\\petit\\node_modules\\forever\\node_modules\\forever-monitor\\node_modules\\broadway\\node_modules\\winston\\node_modules\\request\\node_modules\\form-data\\node_modules\\combined-stream\\node_modules\\delayed-stream\\test\\integration\\test-handle-source-errors.js\nUnable to open C:\\Projects\\Web\\Mean\\0.4.0\\petit\\node_modules\\forever\\node_modules\\forever-monitor\\node_modules\\broadway\\node_modules\\winston\\node_modules\\request\\node_modules\\form-data\\node_modules\\combined-stream\\node_modules\\delayed-stream\\test\\integration\\test-max-data-size.js\nUnable to open C:\\Projects\\Web\\Mean\\0.4.0\\petit\\node_modules\\forever\\node_modules\\forever-monitor\\node_modules\\broadway\\node_modules\\winston\\node_modules\\request\\node_modules\\form-data\\node_modules\\combined-stream\\node_modules\\delayed-stream\\test\\integration\\test-pipe-resumes.js\nUnable to open C:\\Projects\\Web\\Mean\\0.4.0\\petit\\node_modules\\forever\\node_modules\\forever-monitor\\node_modules\\broadway\\node_modules\\winston\\node_modules\\request\\node_modules\\form-data\\node_modules\\combined-stream\\node_modules\\delayed-stream\\test\\integration\\test-proxy-readable.js\nC:\\Projects\\Web\\Mean\\0.4.0\\petit\\node_modules\\grunt-ng-annotate\\node_modules\\ng-annotate\\README.md:\n   76  \n   77  ## Highly recommended: enable ng-strict-di in your minified builds\n   78: `<div ng-app=\"myApp\" ng-strict-di>`\n   79  \n   80  Do that in your ng-annotate processed builds and AngularJS will let you know if there are\n\nC:\\Projects\\Web\\Mean\\0.4.0\\petit\\node_modules\\grunt-protractor-runner\\node_modules\\protractor\\CHANGELOG.md:\n  132    'Uncaught exception: Error while waiting for Protractor to sync with the page: {}' Now the error\n  133    message will be displayed, and a more useful custom message will be thrown if the variable\n  134:   'angular' is not present or the root element is not part of the ng-app.\n  135  \n  136    See #1474\n  ...\n  294    config.rootElement was used both to specify how to get hold of Angular's injector as well as\n  295    where to begin searching for elements. This does not work for all cases, for example if a dialog \n  296:   should be searched for elements but is a sibling, not a child, of ng-app.\n  297  \n  298    This reverts that change, and uses document as the parent for all searches. This is consistent\n  ...\n  444    `config.rootElement`. This will make sure behavior is correct if there are multiple angular apps\n  445    on one page, and also enables the getTestability path, because that requires a root element under\n  446:   an ng-app.\n  447  \n  448  # 1.1.1\n  ...\n 1922  protractor.\n 1923  \n 1924: - ([3c76246](https://github.com/angular/protractor/commit/3c76246a01e584bc30da645a36e75920b5397251)) Added nested angular app (ng-app on an element other than `<html>` or `<body>`) capability via conf file.\n 1925  \n 1926  ## Bug fixes\n\nC:\\Projects\\Web\\Mean\\0.4.0\\petit\\node_modules\\grunt-protractor-runner\\node_modules\\protractor\\docs\\referenceConf.js:\n  161  \n  162    // CSS Selector for the element housing the angular app - this defaults to\n  163:   // body, but is necessary if ng-app is on a descendant of <body>.\n  164    rootElement: 'body',\n  165  \n\nC:\\Projects\\Web\\Mean\\0.4.0\\petit\\node_modules\\grunt-protractor-runner\\node_modules\\protractor\\lib\\cli.js:\n   43      describe('seleniumPort', 'Optional port for the selenium standalone server').\n   44      describe('baseUrl', 'URL to prepend to all relative paths').\n   45:     describe('rootElement', 'Element housing ng-app, if not html or body').\n   46      describe('specs', 'Comma-separated list of files to test').\n   47      describe('exclude', 'Comma-separated list of files to exclude').\n\nC:\\Projects\\Web\\Mean\\0.4.0\\petit\\node_modules\\grunt-protractor-runner\\node_modules\\protractor\\lib\\clientsidescripts.js:\n   23   * Asynchronous.\n   24   *\n   25:  * @param {string} rootSelector The selector housing an ng-app\n   26   * @param {function(string)} callback callback. If a failure occurs, it will\n   27   *     be passed as a parameter.\n   ..\n   39        if (!angular.element(el).injector()) {\n   40          throw new Error('root element (' + rootSelector + ') has no injector.' +\n   41:            ' this may mean it is not inside ng-app.');\n   42        }\n   43        angular.element(el).injector().get('$browser').\n   ..\n  570   * Return the current url using $location.absUrl().\n  571   *\n  572:  * @param {string} selector The selector housing an ng-app\n  573   */\n  574  functions.getLocationAbsUrl = function(selector) {\n  ...\n  584   * Browse to another page using in-page navigation.\n  585   *\n  586:  * @param {string} selector The selector housing an ng-app\n  587   * @param {string} url In page URL using the same syntax as $location.url(),\n  588   *     /path?search=a&b=c#hash\n\nC:\\Projects\\Web\\Mean\\0.4.0\\petit\\node_modules\\grunt-protractor-runner\\node_modules\\protractor\\lib\\protractor.js:\n   81   * @param {webdriver.WebDriver} webdriver\n   82   * @param {string=} opt_baseUrl A base URL to run get requests against.\n   83:  * @param {string=} opt_rootElement  Selector element that has an ng-app in\n   84   *     scope.\n   85   */\n   ..\n  145    /**\n  146     * The css selector for an element on which to find Angular. This is usually\n  147:    * 'body' but if your ng-app is on a subsection of the page it may be\n  148     * a subelement.\n  149     *\n\nC:\\Projects\\Web\\Mean\\0.4.0\\petit\\node_modules\\grunt-protractor-runner\\node_modules\\protractor\\plugins\\timeline\\spec\\standalonelog.txt:\n  135        if (!angular.element(el).injector()) {\n  136          throw new Error('root element (' + rootSelector + ') has no injector.' +\n  137:            ' this may mean it is not inside ng-app.');\n  138        }\n  139        angular.element(el).injector().get('$browser').\n  ...\n  190        if (!angular.element(el).injector()) {\n  191          throw new Error('root element (' + rootSelector + ') has no injector.' +\n  192:            ' this may mean it is not inside ng-app.');\n  193        }\n  194        angular.element(el).injector().get('$browser').\n  ...\n  217        if (!angular.element(el).injector()) {\n  218          throw new Error('root element (' + rootSelector + ') has no injector.' +\n  219:            ' this may mean it is not inside ng-app.');\n  220        }\n  221        angular.element(el).injector().get('$browser').\n\nC:\\Projects\\Web\\Mean\\0.4.0\\petit\\node_modules\\grunt-protractor-runner\\node_modules\\protractor\\plugins\\timeline\\spec\\unit.js:\n   33        type: ''\n   34      }, { level: { value: 800, name: 'INFO' },\n   35:       message: 'org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [execute async script: try { return (function (rootSelector, callback) {\\n  var el = document.querySelector(rootSelector);\\n\\n  try {\\n    if (!window.angular) {\\n      throw new Error(\\'angular could not be found on the window\\');\\n    }\\n    if (angular.getTestability) {\\n      angular.getTestability(el).whenStable(callback);\\n    } else {\\n      if (!angular.element(el).injector()) {\\n        throw new Error(\\'root element (\\' + rootSelector + \\') has no injector.\\' +\\n           \\' this may mean it is not inside ng-app.\\');\\n      }\\n      angular.element(el).injector().get(\\'$browser\\').\\n          notifyWhenNoOutstandingRequests(callback);\\n    }\\n  } catch (err) {\\n    callback(err.message);\\n  }\\n}).apply(this, arguments); }\\ncatch(e) { throw (e instanceof Error) ? e : new Error(e); }, [body]] at URL: /session/b057191b-6328-4c7b-bdd2-170ba79280af/execute_async)',\n   36        timestamp: 1419031697672,\n   37        type: ''\n\nC:\\Projects\\Web\\Mean\\0.4.0\\petit\\node_modules\\grunt-protractor-runner\\node_modules\\protractor\\testapp\\alt_root_index.html:\n   12    </div>\n   13  \n   14:   <div id=\"nested-ng-app\" ng-app=\"myApp\">\n   15      <div id=\"inside-ng\">\n   16        {{1 + 2}}\n\nC:\\Projects\\Web\\Mean\\0.4.0\\petit\\node_modules\\grunt-protractor-runner\\node_modules\\protractor\\testapp\\index.html:\n    1  <!doctype html>\n    2: <html lang=\"en\" ng-app=\"myApp\">\n    3  <head>\n    4    <meta charset=\"utf-8\">\n\nC:\\Projects\\Web\\Mean\\0.4.0\\petit\\node_modules\\grunt-protractor-runner\\node_modules\\protractor\\testapp\\lib\\angular_v1.2.9\\angular.min.js:\n   14  a&&Q===a?c=\"$DOCUMENT\":a&&(a.$evalAsync&&a.$watch)&&(c=\"$SCOPE\");return c}function qa(b,a){return\"undefined\"===typeof b?r:JSON.stringify(b,Sc,a?\"  \":null)}function Vb(b){return D(b)?JSON.parse(b):b}function Oa(b){\"function\"===typeof b?b=!0:b&&0!==b.length?(b=x(\"\"+b),b=!(\"f\"==b||\"0\"==b||\"false\"==b||\"no\"==b||\"n\"==b||\"[]\"==b)):b=!1;return b}function ga(b){b=A(b).clone();try{b.empty()}catch(a){}var c=A(\"<div>\").append(b).html();try{return 3===b[0].nodeType?x(c):c.match(/^(<[^>]+>)/)[1].replace(/^<([\\w\\-]+)/,\n   15  function(a,b){return\"<\"+x(b)})}catch(d){return x(c)}}function Wb(b){try{return decodeURIComponent(b)}catch(a){}}function Xb(b){var a={},c,d;q((b||\"\").split(\"&\"),function(b){b&&(c=b.split(\"=\"),d=Wb(c[0]),B(d)&&(b=B(c[1])?Wb(c[1]):!0,a[d]?K(a[d])?a[d].push(b):a[d]=[a[d],b]:a[d]=b))});return a}function Yb(b){var a=[];q(b,function(b,d){K(b)?q(b,function(b){a.push(wa(d,!0)+(!0===b?\"\":\"=\"+wa(b,!0)))}):a.push(wa(d,!0)+(!0===b?\"\":\"=\"+wa(b,!0)))});return a.length?a.join(\"&\"):\"\"}function tb(b){return wa(b,\n   16: !0).replace(/%26/gi,\"&\").replace(/%3D/gi,\"=\").replace(/%2B/gi,\"+\")}function wa(b,a){return encodeURIComponent(b).replace(/%40/gi,\"@\").replace(/%3A/gi,\":\").replace(/%24/g,\"$\").replace(/%2C/gi,\",\").replace(/%20/g,a?\"%20\":\"+\")}function Tc(b,a){function c(a){a&&d.push(a)}var d=[b],e,g,f=[\"ng:app\",\"ng-app\",\"x-ng-app\",\"data-ng-app\"],h=/\\sng[:\\-]app(:\\s*([\\w\\d_]+);?)?\\s/;q(f,function(a){f[a]=!0;c(Q.getElementById(a));a=a.replace(\":\",\"\\\\:\");b.querySelectorAll&&(q(b.querySelectorAll(\".\"+a),c),q(b.querySelectorAll(\".\"+\n   17  a+\"\\\\:\"),c),q(b.querySelectorAll(\"[\"+a+\"]\"),c))});q(d,function(a){if(!e){var b=h.exec(\" \"+a.className+\" \");b?(e=a,g=(b[2]||\"\").replace(/\\s+/g,\",\")):q(a.attributes,function(b){!e&&f[b.name]&&(e=a,g=b.value)})}});e&&a(e,g?[g]:[])}function Zb(b,a){var c=function(){b=A(b);if(b.injector()){var c=b[0]===Q?\"document\":ga(b);throw Na(\"btstrpd\",c);}a=a||[];a.unshift([\"$provide\",function(a){a.value(\"$rootElement\",b)}]);a.unshift(\"ng\");c=$b(a);c.invoke([\"$rootScope\",\"$rootElement\",\"$compile\",\"$injector\",\"$animate\",\n   18  function(a,b,c,d,e){a.$apply(function(){b.data(\"$injector\",d);c(b)(a)})}]);return c},d=/^NG_DEFER_BOOTSTRAP!/;if(Z&&!d.test(Z.name))return c();Z.name=Z.name.replace(d,\"\");Ca.resumeBootstrap=function(b){q(b,function(b){a.push(b)});c()}}function db(b,a){a=a||\"_\";return b.replace(Uc,function(b,d){return(d?a:\"\")+b.toLowerCase()})}function ub(b,a,c){if(!b)throw Na(\"areq\",a||\"?\",c||\"required\");return b}function Pa(b,a,c){c&&K(b)&&(b=b[b.length-1]);ub(L(b),a,\"not a function, got \"+(b&&\"object\"==typeof b?\n\nC:\\Projects\\Web\\Mean\\0.4.0\\petit\\node_modules\\grunt-protractor-runner\\node_modules\\protractor\\testapp\\ngHint\\index.html:\n    1  <!DOCTYPE html>\n    2  \n    3: <html ng-app=\"xApp\" ng-hint>\n    4    <head>\n    5      <meta charset=\"utf-8\">\n\nC:\\Projects\\Web\\Mean\\0.4.0\\petit\\node_modules\\grunt-protractor-runner\\node_modules\\protractor\\testapp\\ngHint\\ngHint.js:\n  612          'min': 'A',\n  613          'max': 'A',\n  614:         'ng-app': 'A',\n  615          'ng-bind': 'A',\n  616          'ng-bindhtml': 'A',\n  ...\n 1637    SEVERITY_ERROR = 1;\n 1638   module.exports = function(attrs, ngAppFound) {\n 1639:    if(attrs['ng-app'] && ngAppFound) {\n 1640:      hintLog.logMessage(MODULE_NAME, 'ng-app may only be included once. The module \"' +\n 1641:       attrs['ng-app'].value + '\" was not used to bootstrap because ng-app was already included.',\n 1642        SEVERITY_ERROR);\n 1643     }\n 1644:   return attrs['ng-app'] ? attrs['ng-app'].value : undefined;\n 1645   };\n 1646  \n ....\n 2075    var val,\n 2076        types = [\n 2077:         'ng-app',\n 2078          'ng-controller',\n 2079          'ng-repeat',\n\nC:\\Projects\\Web\\Mean\\0.4.0\\petit\\node_modules\\grunt-protractor-runner\\node_modules\\protractor\\testapp\\ngHint\\noNgHint.html:\n    1  <!DOCTYPE html>\n    2  \n    3: <html ng-app=\"xApp\">\n    4    <head>\n    5      <meta charset=\"utf-8\">\n\nC:\\Projects\\Web\\Mean\\0.4.0\\petit\\node_modules\\grunt-protractor-runner\\node_modules\\protractor\\testapp\\ngHint\\noTag.html:\n    1  <!DOCTYPE html>\n    2  \n    3: <html ng-app=\"xApp\">\n    4    <head>\n    5      <meta charset=\"utf-8\">\n\nC:\\Projects\\Web\\Mean\\0.4.0\\petit\\node_modules\\grunt-protractor-runner\\node_modules\\protractor\\testapp\\ngHint\\unused.html:\n    1  <!DOCTYPE html>\n    2  \n    3: <html ng-app ng-hint>\n    4    <head>\n    5      <meta charset=\"utf-8\">\n\nC:\\Projects\\Web\\Mean\\0.4.0\\petit\\node_modules\\grunt-protractor-runner\\README.md:\n   86  * seleniumPort `string`: Optional port for the standalone selenium server\n   87  * baseUrl `string`: URL to prepend to all relative paths\n   88: * rootElement `string`: Element housing ng-app, if not html or body\n   89  * specs `array`: Array of spec files to test. Ex. `[\"spec1.js\",\"spec2.js\"]`\n   90  * exclude `array`: Array of files to exclude from testing. Ex. `[\"spec2.js\"]`\n\nC:\\Projects\\Web\\Mean\\0.4.0\\petit\\node_modules\\grunt-protractor-runner\\test\\testConf.js:\n   57  \n   58    // Selector for the element housing the angular app - this defaults to\n   59:   // body, but is necessary if ng-app is on a descendant of <body>  \n   60    rootElement: 'body',\n   61  \n\nUnable to open C:\\Projects\\Web\\Mean\\0.4.0\\petit\\node_modules\\gulp-livereload\\node_modules\\lodash.assign\\node_modules\\lodash._basecreatecallback\\node_modules\\lodash.bind\\node_modules\\lodash._createwrapper\\node_modules\\lodash._basebind\\node_modules\\lodash._basecreate\\LICENSE.txt\nUnable to open C:\\Projects\\Web\\Mean\\0.4.0\\petit\\node_modules\\gulp-livereload\\node_modules\\lodash.assign\\node_modules\\lodash._basecreatecallback\\node_modules\\lodash.bind\\node_modules\\lodash._createwrapper\\node_modules\\lodash._basebind\\node_modules\\lodash._basecreate\\package.json\nUnable to open C:\\Projects\\Web\\Mean\\0.4.0\\petit\\node_modules\\gulp-livereload\\node_modules\\lodash.assign\\node_modules\\lodash._basecreatecallback\\node_modules\\lodash.bind\\node_modules\\lodash._createwrapper\\node_modules\\lodash._basebind\\node_modules\\lodash._basecreate\\README.md\nUnable to open C:\\Projects\\Web\\Mean\\0.4.0\\petit\\node_modules\\gulp-livereload\\node_modules\\lodash.assign\\node_modules\\lodash._basecreatecallback\\node_modules\\lodash.bind\\node_modules\\lodash._createwrapper\\node_modules\\lodash._basebind\\node_modules\\lodash.isobject\\package.json\nC:\\Projects\\Web\\Mean\\0.4.0\\petit\\node_modules\\gulp-ng-annotate\\node_modules\\ng-annotate\\README.md:\n   76  \n   77  ## Highly recommended: enable ng-strict-di in your minified builds\n   78: `<div ng-app=\"myApp\" ng-strict-di>`\n   79  \n   80  Do that in your ng-annotate processed builds and AngularJS will let you know if there are\n\nC:\\Projects\\Web\\Mean\\0.4.0\\petit\\node_modules\\gulp-protractor\\example_2\\build\\index.html:\n    1  <!DOCTYPE html>\n    2: <html data-ng-app='' id='ng-app' lang='de'>\n    3    <head>\n    4      <meta charset='utf-8'>\n\nC:\\Projects\\Web\\Mean\\0.4.0\\petit\\node_modules\\gulp-protractor\\node_modules\\protractor\\CHANGELOG.md:\n  132    'Uncaught exception: Error while waiting for Protractor to sync with the page: {}' Now the error\n  133    message will be displayed, and a more useful custom message will be thrown if the variable\n  134:   'angular' is not present or the root element is not part of the ng-app.\n  135  \n  136    See #1474\n  ...\n  294    config.rootElement was used both to specify how to get hold of Angular's injector as well as\n  295    where to begin searching for elements. This does not work for all cases, for example if a dialog \n  296:   should be searched for elements but is a sibling, not a child, of ng-app.\n  297  \n  298    This reverts that change, and uses document as the parent for all searches. This is consistent\n  ...\n  444    `config.rootElement`. This will make sure behavior is correct if there are multiple angular apps\n  445    on one page, and also enables the getTestability path, because that requires a root element under\n  446:   an ng-app.\n  447  \n  448  # 1.1.1\n  ...\n 1922  protractor.\n 1923  \n 1924: - ([3c76246](https://github.com/angular/protractor/commit/3c76246a01e584bc30da645a36e75920b5397251)) Added nested angular app (ng-app on an element other than `<html>` or `<body>`) capability via conf file.\n 1925  \n 1926  ## Bug fixes\n\nC:\\Projects\\Web\\Mean\\0.4.0\\petit\\node_modules\\gulp-protractor\\node_modules\\protractor\\docs\\referenceConf.js:\n  161  \n  162    // CSS Selector for the element housing the angular app - this defaults to\n  163:   // body, but is necessary if ng-app is on a descendant of <body>.\n  164    rootElement: 'body',\n  165  \n\nC:\\Projects\\Web\\Mean\\0.4.0\\petit\\node_modules\\gulp-protractor\\node_modules\\protractor\\lib\\cli.js:\n   43      describe('seleniumPort', 'Optional port for the selenium standalone server').\n   44      describe('baseUrl', 'URL to prepend to all relative paths').\n   45:     describe('rootElement', 'Element housing ng-app, if not html or body').\n   46      describe('specs', 'Comma-separated list of files to test').\n   47      describe('exclude', 'Comma-separated list of files to exclude').\n\nC:\\Projects\\Web\\Mean\\0.4.0\\petit\\node_modules\\gulp-protractor\\node_modules\\protractor\\lib\\clientsidescripts.js:\n   23   * Asynchronous.\n   24   *\n   25:  * @param {string} rootSelector The selector housing an ng-app\n   26   * @param {function(string)} callback callback. If a failure occurs, it will\n   27   *     be passed as a parameter.\n   ..\n   39        if (!angular.element(el).injector()) {\n   40          throw new Error('root element (' + rootSelector + ') has no injector.' +\n   41:            ' this may mean it is not inside ng-app.');\n   42        }\n   43        angular.element(el).injector().get('$browser').\n   ..\n  570   * Return the current url using $location.absUrl().\n  571   *\n  572:  * @param {string} selector The selector housing an ng-app\n  573   */\n  574  functions.getLocationAbsUrl = function(selector) {\n  ...\n  584   * Browse to another page using in-page navigation.\n  585   *\n  586:  * @param {string} selector The selector housing an ng-app\n  587   * @param {string} url In page URL using the same syntax as $location.url(),\n  588   *     /path?search=a&b=c#hash\n\nC:\\Projects\\Web\\Mean\\0.4.0\\petit\\node_modules\\gulp-protractor\\node_modules\\protractor\\lib\\protractor.js:\n   81   * @param {webdriver.WebDriver} webdriver\n   82   * @param {string=} opt_baseUrl A base URL to run get requests against.\n   83:  * @param {string=} opt_rootElement  Selector element that has an ng-app in\n   84   *     scope.\n   85   */\n   ..\n  145    /**\n  146     * The css selector for an element on which to find Angular. This is usually\n  147:    * 'body' but if your ng-app is on a subsection of the page it may be\n  148     * a subelement.\n  149     *\n\nC:\\Projects\\Web\\Mean\\0.4.0\\petit\\node_modules\\gulp-protractor\\node_modules\\protractor\\plugins\\timeline\\spec\\standalonelog.txt:\n  135        if (!angular.element(el).injector()) {\n  136          throw new Error('root element (' + rootSelector + ') has no injector.' +\n  137:            ' this may mean it is not inside ng-app.');\n  138        }\n  139        angular.element(el).injector().get('$browser').\n  ...\n  190        if (!angular.element(el).injector()) {\n  191          throw new Error('root element (' + rootSelector + ') has no injector.' +\n  192:            ' this may mean it is not inside ng-app.');\n  193        }\n  194        angular.element(el).injector().get('$browser').\n  ...\n  217        if (!angular.element(el).injector()) {\n  218          throw new Error('root element (' + rootSelector + ') has no injector.' +\n  219:            ' this may mean it is not inside ng-app.');\n  220        }\n  221        angular.element(el).injector().get('$browser').\n\nC:\\Projects\\Web\\Mean\\0.4.0\\petit\\node_modules\\gulp-protractor\\node_modules\\protractor\\plugins\\timeline\\spec\\unit.js:\n   33        type: ''\n   34      }, { level: { value: 800, name: 'INFO' },\n   35:       message: 'org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [execute async script: try { return (function (rootSelector, callback) {\\n  var el = document.querySelector(rootSelector);\\n\\n  try {\\n    if (!window.angular) {\\n      throw new Error(\\'angular could not be found on the window\\');\\n    }\\n    if (angular.getTestability) {\\n      angular.getTestability(el).whenStable(callback);\\n    } else {\\n      if (!angular.element(el).injector()) {\\n        throw new Error(\\'root element (\\' + rootSelector + \\') has no injector.\\' +\\n           \\' this may mean it is not inside ng-app.\\');\\n      }\\n      angular.element(el).injector().get(\\'$browser\\').\\n          notifyWhenNoOutstandingRequests(callback);\\n    }\\n  } catch (err) {\\n    callback(err.message);\\n  }\\n}).apply(this, arguments); }\\ncatch(e) { throw (e instanceof Error) ? e : new Error(e); }, [body]] at URL: /session/b057191b-6328-4c7b-bdd2-170ba79280af/execute_async)',\n   36        timestamp: 1419031697672,\n   37        type: ''\n\nC:\\Projects\\Web\\Mean\\0.4.0\\petit\\node_modules\\gulp-protractor\\node_modules\\protractor\\testapp\\alt_root_index.html:\n   12    </div>\n   13  \n   14:   <div id=\"nested-ng-app\" ng-app=\"myApp\">\n   15      <div id=\"inside-ng\">\n   16        {{1 + 2}}\n\nC:\\Projects\\Web\\Mean\\0.4.0\\petit\\node_modules\\gulp-protractor\\node_modules\\protractor\\testapp\\index.html:\n    1  <!doctype html>\n    2: <html lang=\"en\" ng-app=\"myApp\">\n    3  <head>\n    4    <meta charset=\"utf-8\">\n\nC:\\Projects\\Web\\Mean\\0.4.0\\petit\\node_modules\\gulp-protractor\\node_modules\\protractor\\testapp\\lib\\angular_v1.2.9\\angular.min.js:\n   14  a&&Q===a?c=\"$DOCUMENT\":a&&(a.$evalAsync&&a.$watch)&&(c=\"$SCOPE\");return c}function qa(b,a){return\"undefined\"===typeof b?r:JSON.stringify(b,Sc,a?\"  \":null)}function Vb(b){return D(b)?JSON.parse(b):b}function Oa(b){\"function\"===typeof b?b=!0:b&&0!==b.length?(b=x(\"\"+b),b=!(\"f\"==b||\"0\"==b||\"false\"==b||\"no\"==b||\"n\"==b||\"[]\"==b)):b=!1;return b}function ga(b){b=A(b).clone();try{b.empty()}catch(a){}var c=A(\"<div>\").append(b).html();try{return 3===b[0].nodeType?x(c):c.match(/^(<[^>]+>)/)[1].replace(/^<([\\w\\-]+)/,\n   15  function(a,b){return\"<\"+x(b)})}catch(d){return x(c)}}function Wb(b){try{return decodeURIComponent(b)}catch(a){}}function Xb(b){var a={},c,d;q((b||\"\").split(\"&\"),function(b){b&&(c=b.split(\"=\"),d=Wb(c[0]),B(d)&&(b=B(c[1])?Wb(c[1]):!0,a[d]?K(a[d])?a[d].push(b):a[d]=[a[d],b]:a[d]=b))});return a}function Yb(b){var a=[];q(b,function(b,d){K(b)?q(b,function(b){a.push(wa(d,!0)+(!0===b?\"\":\"=\"+wa(b,!0)))}):a.push(wa(d,!0)+(!0===b?\"\":\"=\"+wa(b,!0)))});return a.length?a.join(\"&\"):\"\"}function tb(b){return wa(b,\n   16: !0).replace(/%26/gi,\"&\").replace(/%3D/gi,\"=\").replace(/%2B/gi,\"+\")}function wa(b,a){return encodeURIComponent(b).replace(/%40/gi,\"@\").replace(/%3A/gi,\":\").replace(/%24/g,\"$\").replace(/%2C/gi,\",\").replace(/%20/g,a?\"%20\":\"+\")}function Tc(b,a){function c(a){a&&d.push(a)}var d=[b],e,g,f=[\"ng:app\",\"ng-app\",\"x-ng-app\",\"data-ng-app\"],h=/\\sng[:\\-]app(:\\s*([\\w\\d_]+);?)?\\s/;q(f,function(a){f[a]=!0;c(Q.getElementById(a));a=a.replace(\":\",\"\\\\:\");b.querySelectorAll&&(q(b.querySelectorAll(\".\"+a),c),q(b.querySelectorAll(\".\"+\n   17  a+\"\\\\:\"),c),q(b.querySelectorAll(\"[\"+a+\"]\"),c))});q(d,function(a){if(!e){var b=h.exec(\" \"+a.className+\" \");b?(e=a,g=(b[2]||\"\").replace(/\\s+/g,\",\")):q(a.attributes,function(b){!e&&f[b.name]&&(e=a,g=b.value)})}});e&&a(e,g?[g]:[])}function Zb(b,a){var c=function(){b=A(b);if(b.injector()){var c=b[0]===Q?\"document\":ga(b);throw Na(\"btstrpd\",c);}a=a||[];a.unshift([\"$provide\",function(a){a.value(\"$rootElement\",b)}]);a.unshift(\"ng\");c=$b(a);c.invoke([\"$rootScope\",\"$rootElement\",\"$compile\",\"$injector\",\"$animate\",\n   18  function(a,b,c,d,e){a.$apply(function(){b.data(\"$injector\",d);c(b)(a)})}]);return c},d=/^NG_DEFER_BOOTSTRAP!/;if(Z&&!d.test(Z.name))return c();Z.name=Z.name.replace(d,\"\");Ca.resumeBootstrap=function(b){q(b,function(b){a.push(b)});c()}}function db(b,a){a=a||\"_\";return b.replace(Uc,function(b,d){return(d?a:\"\")+b.toLowerCase()})}function ub(b,a,c){if(!b)throw Na(\"areq\",a||\"?\",c||\"required\");return b}function Pa(b,a,c){c&&K(b)&&(b=b[b.length-1]);ub(L(b),a,\"not a function, got \"+(b&&\"object\"==typeof b?\n\nC:\\Projects\\Web\\Mean\\0.4.0\\petit\\node_modules\\gulp-protractor\\node_modules\\protractor\\testapp\\ngHint\\index.html:\n    1  <!DOCTYPE html>\n    2  \n    3: <html ng-app=\"xApp\" ng-hint>\n    4    <head>\n    5      <meta charset=\"utf-8\">\n\nC:\\Projects\\Web\\Mean\\0.4.0\\petit\\node_modules\\gulp-protractor\\node_modules\\protractor\\testapp\\ngHint\\ngHint.js:\n  612          'min': 'A',\n  613          'max': 'A',\n  614:         'ng-app': 'A',\n  615          'ng-bind': 'A',\n  616          'ng-bindhtml': 'A',\n  ...\n 1637    SEVERITY_ERROR = 1;\n 1638   module.exports = function(attrs, ngAppFound) {\n 1639:    if(attrs['ng-app'] && ngAppFound) {\n 1640:      hintLog.logMessage(MODULE_NAME, 'ng-app may only be included once. The module \"' +\n 1641:       attrs['ng-app'].value + '\" was not used to bootstrap because ng-app was already included.',\n 1642        SEVERITY_ERROR);\n 1643     }\n 1644:   return attrs['ng-app'] ? attrs['ng-app'].value : undefined;\n 1645   };\n 1646  \n ....\n 2075    var val,\n 2076        types = [\n 2077:         'ng-app',\n 2078          'ng-controller',\n 2079          'ng-repeat',\n\nC:\\Projects\\Web\\Mean\\0.4.0\\petit\\node_modules\\gulp-protractor\\node_modules\\protractor\\testapp\\ngHint\\noNgHint.html:\n    1  <!DOCTYPE html>\n    2  \n    3: <html ng-app=\"xApp\">\n    4    <head>\n    5      <meta charset=\"utf-8\">\n\nC:\\Projects\\Web\\Mean\\0.4.0\\petit\\node_modules\\gulp-protractor\\node_modules\\protractor\\testapp\\ngHint\\noTag.html:\n    1  <!DOCTYPE html>\n    2  \n    3: <html ng-app=\"xApp\">\n    4    <head>\n    5      <meta charset=\"utf-8\">\n\nC:\\Projects\\Web\\Mean\\0.4.0\\petit\\node_modules\\gulp-protractor\\node_modules\\protractor\\testapp\\ngHint\\unused.html:\n    1  <!DOCTYPE html>\n    2  \n    3: <html ng-app ng-hint>\n    4    <head>\n    5      <meta charset=\"utf-8\">\n\nC:\\Projects\\Web\\Mean\\0.4.0\\petit\\public\\lib\\angular-mocks\\angular-mocks.js:\n 1734  angular.mock.$RootElementProvider = function() {\n 1735    this.$get = function() {\n 1736:     return angular.element('<div ng-app></div>');\n 1737    };\n 1738  };\n\nC:\\Projects\\Web\\Mean\\0.4.0\\petit\\public\\lib\\angular-ui-router\\README.md:\n   48  ```html\n   49  <!doctype html>\n   50: <html ng-app=\"myApp\">\n   51  <head>\n   52      <script src=\"//ajax.googleapis.com/ajax/libs/angularjs/1.1.5/angular.min.js\"></script>\n\nC:\\Projects\\Web\\Mean\\0.4.0\\petit\\public\\lib\\angular-ui-router\\release\\angular-ui-router.js:\n  286   * <pre>\n  287   * <!doctype html>\n  288:  * <html ng-app=\"myApp\">\n  289   * <head>\n  290   *   <script src=\"js/angular.js\"></script>\n\nC:\\Projects\\Web\\Mean\\0.4.0\\petit\\public\\lib\\angular-ui-router\\src\\common.js:\n  273   * <pre>\n  274   * <!doctype html>\n  275:  * <html ng-app=\"myApp\">\n  276   * <head>\n  277   *   <script src=\"js/angular.js\"></script>\n\nC:\\Projects\\Web\\Mean\\0.4.0\\petit\\public\\lib\\angular\\angular.js:\n 1330        appElement,\n 1331        module,\n 1332:       names = ['ng:app', 'ng-app', 'x-ng-app', 'data-ng-app'],\n 1333        NG_APP_CLASS_REGEXP = /\\sng[:\\-]app(:\\s*([\\w\\d_]+);?)?\\s/;\n 1334  \n ....\n 5129   * **Note:** the `script` tag containing the template does not need to be included in the `head` of\n 5130   * the document, but it must be a descendent of the {@link ng.$rootElement $rootElement} (IE,\n 5131:  * element with ng-app attribute), otherwise the template will be ignored.\n 5132   *\n 5133   * Adding via the $templateCache service:\n ....\n 8743    });\n 8744  </script>\n 8745: <div ng-app=\"App\" ng-controller=\"DemoController as demo\">\n 8746      //demo.label//\n 8747  </div>\n ....\n 19186     ```html\n 19187       <!doctype html>\n 19188:      <html ng-app ng-csp>\n 19189       ...\n 19190       ...\n\nC:\\Projects\\Web\\Mean\\0.4.0\\petit\\public\\lib\\angular\\angular.min.js:\n   14  0))):a.apply(b,c)}:function(){return arguments.length?a.apply(b,arguments):a.call(b)}}function Vc(b,a){var c=a;\"string\"===typeof b&&\"$\"===b.charAt(0)?c=u:Ja(a)?c=\"$WINDOW\":a&&X===a?c=\"$DOCUMENT\":a&&(a.$evalAsync&&a.$watch)&&(c=\"$SCOPE\");return c}function oa(b,a){return\"undefined\"===typeof b?u:JSON.stringify(b,Vc,a?\"  \":null)}function ac(b){return G(b)?JSON.parse(b):b}function Wa(b){\"function\"===typeof b?b=!0:b&&0!==b.length?(b=x(\"\"+b),b=!(\"f\"==b||\"0\"==b||\"false\"==b||\"no\"==b||\"n\"==b||\"[]\"==b)):b=!1;\n   15  return b}function ia(b){b=A(b).clone();try{b.empty()}catch(a){}var c=A(\"<div>\").append(b).html();try{return 3===b[0].nodeType?x(c):c.match(/^(<[^>]+>)/)[1].replace(/^<([\\w\\-]+)/,function(a,b){return\"<\"+x(b)})}catch(d){return x(c)}}function bc(b){try{return decodeURIComponent(b)}catch(a){}}function cc(b){var a={},c,d;r((b||\"\").split(\"&\"),function(b){b&&(c=b.replace(/\\+/g,\"%20\").split(\"=\"),d=bc(c[0]),D(d)&&(b=D(c[1])?bc(c[1]):!0,lb.call(a,d)?L(a[d])?a[d].push(b):a[d]=[a[d],b]:a[d]=b))});return a}function Cb(b){var a=\n   16: [];r(b,function(b,d){L(b)?r(b,function(b){a.push(Da(d,!0)+(!0===b?\"\":\"=\"+Da(b,!0)))}):a.push(Da(d,!0)+(!0===b?\"\":\"=\"+Da(b,!0)))});return a.length?a.join(\"&\"):\"\"}function mb(b){return Da(b,!0).replace(/%26/gi,\"&\").replace(/%3D/gi,\"=\").replace(/%2B/gi,\"+\")}function Da(b,a){return encodeURIComponent(b).replace(/%40/gi,\"@\").replace(/%3A/gi,\":\").replace(/%24/g,\"$\").replace(/%2C/gi,\",\").replace(/%20/g,a?\"%20\":\"+\")}function Wc(b,a){function c(a){a&&d.push(a)}var d=[b],e,f,g=[\"ng:app\",\"ng-app\",\"x-ng-app\",\n   17: \"data-ng-app\"],h=/\\sng[:\\-]app(:\\s*([\\w\\d_]+);?)?\\s/;r(g,function(a){g[a]=!0;c(X.getElementById(a));a=a.replace(\":\",\"\\\\:\");b.querySelectorAll&&(r(b.querySelectorAll(\".\"+a),c),r(b.querySelectorAll(\".\"+a+\"\\\\:\"),c),r(b.querySelectorAll(\"[\"+a+\"]\"),c))});r(d,function(a){if(!e){var b=h.exec(\" \"+a.className+\" \");b?(e=a,f=(b[2]||\"\").replace(/\\s+/g,\",\")):r(a.attributes,function(b){!e&&g[b.name]&&(e=a,f=b.value)})}});e&&a(e,f?[f]:[])}function dc(b,a){var c=function(){b=A(b);if(b.injector()){var c=b[0]===X?\n   18  \"document\":ia(b);throw Va(\"btstrpd\",c.replace(/</,\"&lt;\").replace(/>/,\"&gt;\"));}a=a||[];a.unshift([\"$provide\",function(a){a.value(\"$rootElement\",b)}]);a.unshift(\"ng\");c=ec(a);c.invoke([\"$rootScope\",\"$rootElement\",\"$compile\",\"$injector\",\"$animate\",function(a,b,c,d,e){a.$apply(function(){b.data(\"$injector\",d);c(b)(a)})}]);return c},d=/^NG_DEFER_BOOTSTRAP!/;if(W&&!d.test(W.name))return c();W.name=W.name.replace(d,\"\");Xa.resumeBootstrap=function(b){r(b,function(b){a.push(b)});c()}}function nb(b,a){a=\n   19  a||\"_\";return b.replace(Xc,function(b,d){return(d?a:\"\")+b.toLowerCase()})}function Db(b,a,c){if(!b)throw Va(\"areq\",a||\"?\",c||\"required\");return b}function Ya(b,a,c){c&&L(b)&&(b=b[b.length-1]);Db(N(b),a,\"not a function, got \"+(b&&\"object\"===typeof b?b.constructor.name||\"Object\":typeof b));return b}function Ea(b,a){if(\"hasOwnProperty\"===b)throw Va(\"badname\",a);}function fc(b,a,c){if(!a)return b;a=a.split(\".\");for(var d,e=b,f=a.length,g=0;g<f;g++)d=a[g],b&&(b=(e=b)[d]);return!c&&N(b)?Bb(e,b):b}function Eb(b){var a=\n\n87 matches across 41 files\n",
+			"file": "modules/core/client/views/home.client.view.html",
 			"settings":
 			{
-				"buffer_size": 33366,
-				"line_ending": "Windows",
-				"name": "Find Results",
-				"scratch": true
-			}
-		},
-		{
-			"file": "public/lib/angular-ui-router/release/angular-ui-router.js",
-			"settings":
-			{
-				"buffer_size": 156740,
-				"line_ending": "Unix"
+				"buffer_size": 3152,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -145,19 +117,28 @@
 	[
 		"/C/Projects/Web/Mean/0.4.0/petit",
 		"/C/Projects/Web/Mean/0.4.0/petit/config",
-		"/C/Projects/Web/Mean/0.4.0/petit/config/env",
 		"/C/Projects/Web/Mean/0.4.0/petit/modules",
 		"/C/Projects/Web/Mean/0.4.0/petit/modules/core",
 		"/C/Projects/Web/Mean/0.4.0/petit/modules/core/client",
-		"/C/Projects/Web/Mean/0.4.0/petit/modules/core/client/views"
+		"/C/Projects/Web/Mean/0.4.0/petit/modules/core/client/img",
+		"/C/Projects/Web/Mean/0.4.0/petit/modules/core/client/img/brand",
+		"/C/Projects/Web/Mean/0.4.0/petit/modules/core/client/views",
+		"/C/Projects/Web/Mean/0.4.0/petit/modules/users/client",
+		"/C/Projects/Web/Mean/0.4.0/petit/modules/users/client/controllers",
+		"/C/Projects/Web/Mean/0.4.0/petit/modules/users/client/controllers/settings",
+		"/C/Projects/Web/Mean/0.4.0/petit/public"
 	],
 	"file_history":
 	[
+		"/C/Projects/Web/Mean/0.4.0/petit/modules/users/client/controllers/settings/change-profile-picture.client.controller.js",
+		"/C/Projects/Web/Mean/0.4.0/petit/gruntfile.js",
+		"/C/Projects/Web/Mean/0.4.0/petit/README.md",
+		"/C/Projects/Web/Mean/0.4.0/petit/public/lib/angular-ui-router/release/angular-ui-router.js",
+		"/C/Projects/Web/Mean/0.4.0/petit/public/lib/angular/angular.js",
 		"/C/Projects/Web/Mean/0.4.0/petit/modules/core/client/views/header.client.view.html",
 		"/C/Projects/Web/Mean/0.4.0/petit/modules/users/server/config/users.server.config.js",
 		"/C/Projects/Web/Mean/0.4.0/petit/modules/users/server/models/user.server.model.js",
 		"/C/Projects/Web/Mean/0.4.0/petit/config/config.js",
-		"/C/Projects/Web/Mean/0.4.0/petit/README.md",
 		"/C/Projects/Web/Mean/0.4.0/petit/package.json",
 		"/C/Projects/Web/Angular/third/Dockerfile",
 		"/C/Projects/Web/Angular/third/LICENSE.md",
@@ -246,6 +227,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"ChangeProfilePictureController",
 			"ng-app",
 			"view-product-client.view.html",
 			"css",
@@ -282,73 +264,16 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "gruntfile.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4795,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								64,
-								67
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "README.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 8290,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2595,
-								2595
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1800.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "config/env/development.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1394,
+						"buffer_size": 1392,
 						"regions":
 						{
 						},
@@ -356,7 +281,7 @@
 						[
 							[
 								64,
-								60
+								64
 							]
 						],
 						"settings":
@@ -369,11 +294,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 1,
 					"file": "package.json",
 					"semi_transient": false,
 					"settings":
@@ -398,455 +323,65 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 2,
+					"file": "modules/core/client/views/header.client.view.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2331,
+						"buffer_size": 2862,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								115,
-								115
+								392,
+								392
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"word_wrap": true
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 3,
+					"file": "modules/core/client/views/home.client.view.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 33366,
-						"regions":
-						{
-							"match":
-							{
-								"flags": 112,
-								"regions":
-								[
-									[
-										3640,
-										3646
-									],
-									[
-										4163,
-										4169
-									],
-									[
-										4488,
-										4494
-									],
-									[
-										4839,
-										4845
-									],
-									[
-										5037,
-										5043
-									],
-									[
-										5393,
-										5399
-									],
-									[
-										5788,
-										5794
-									],
-									[
-										6184,
-										6190
-									],
-									[
-										6512,
-										6518
-									],
-									[
-										6733,
-										6739
-									],
-									[
-										6943,
-										6949
-									],
-									[
-										7387,
-										7393
-									],
-									[
-										7565,
-										7571
-									],
-									[
-										7978,
-										7984
-									],
-									[
-										8262,
-										8268
-									],
-									[
-										8546,
-										8552
-									],
-									[
-										9497,
-										9503
-									],
-									[
-										10093,
-										10099
-									],
-									[
-										10101,
-										10107
-									],
-									[
-										10333,
-										10339
-									],
-									[
-										11861,
-										11867
-									],
-									[
-										11872,
-										11878
-									],
-									[
-										11886,
-										11892
-									],
-									[
-										13273,
-										13279
-									],
-									[
-										13537,
-										13543
-									],
-									[
-										13727,
-										13733
-									],
-									[
-										13798,
-										13804
-									],
-									[
-										13868,
-										13874
-									],
-									[
-										13922,
-										13928
-									],
-									[
-										14018,
-										14024
-									],
-									[
-										14036,
-										14042
-									],
-									[
-										14146,
-										14152
-									],
-									[
-										14384,
-										14390
-									],
-									[
-										14615,
-										14621
-									],
-									[
-										14847,
-										14853
-									],
-									[
-										15187,
-										15193
-									],
-									[
-										15598,
-										15604
-									],
-									[
-										16978,
-										16984
-									],
-									[
-										17245,
-										17251
-									],
-									[
-										17259,
-										17265
-									],
-									[
-										17708,
-										17714
-									],
-									[
-										18033,
-										18039
-									],
-									[
-										18384,
-										18390
-									],
-									[
-										18582,
-										18588
-									],
-									[
-										18930,
-										18936
-									],
-									[
-										19317,
-										19323
-									],
-									[
-										19705,
-										19711
-									],
-									[
-										20033,
-										20039
-									],
-									[
-										20254,
-										20260
-									],
-									[
-										20464,
-										20470
-									],
-									[
-										20900,
-										20906
-									],
-									[
-										21078,
-										21084
-									],
-									[
-										21483,
-										21489
-									],
-									[
-										21767,
-										21773
-									],
-									[
-										22051,
-										22057
-									],
-									[
-										22994,
-										23000
-									],
-									[
-										23582,
-										23588
-									],
-									[
-										23590,
-										23596
-									],
-									[
-										23814,
-										23820
-									],
-									[
-										25334,
-										25340
-									],
-									[
-										25345,
-										25351
-									],
-									[
-										25359,
-										25365
-									],
-									[
-										26738,
-										26744
-									],
-									[
-										26994,
-										27000
-									],
-									[
-										27184,
-										27190
-									],
-									[
-										27255,
-										27261
-									],
-									[
-										27325,
-										27331
-									],
-									[
-										27379,
-										27385
-									],
-									[
-										27475,
-										27481
-									],
-									[
-										27493,
-										27499
-									],
-									[
-										27603,
-										27609
-									],
-									[
-										27833,
-										27839
-									],
-									[
-										28056,
-										28062
-									],
-									[
-										28280,
-										28286
-									],
-									[
-										28553,
-										28559
-									],
-									[
-										28717,
-										28723
-									],
-									[
-										28996,
-										29002
-									],
-									[
-										29215,
-										29221
-									],
-									[
-										29442,
-										29448
-									],
-									[
-										29454,
-										29460
-									],
-									[
-										29469,
-										29475
-									],
-									[
-										29796,
-										29802
-									],
-									[
-										29962,
-										29968
-									],
-									[
-										30128,
-										30134
-									],
-									[
-										31775,
-										31781
-									],
-									[
-										31786,
-										31792
-									],
-									[
-										31808,
-										31814
-									]
-								],
-								"scope": ""
-							}
-						},
-						"selection":
-						[
-							[
-								29007,
-								29007
-							]
-						],
-						"settings":
-						{
-							"detect_indentation": false,
-							"line_numbers": false,
-							"output_tag": 1,
-							"result_base_dir": "",
-							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
-							"result_line_regex": "^ +([0-9]+):",
-							"scroll_past_end": true,
-							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 7276.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "public/lib/angular-ui-router/release/angular-ui-router.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 156740,
+						"buffer_size": 3152,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7918,
-								7918
+								199,
+								199
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3998.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
