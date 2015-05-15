@@ -1,3 +1,12 @@
+body {
+	background-color: #FFF9EA;
+	color: #8a6d3b;
+}
+
+label {
+	color: #8a6d3b;
+}
+
 .content {
 	margin-top: 50px;
 }

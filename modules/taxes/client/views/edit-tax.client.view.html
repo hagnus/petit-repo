@@ -1,6 +1,12 @@
 <section data-ng-controller="TaxesController" data-ng-init="findOne()">
     <div class="page-header">
         <h1>Editar Imposto</h1>
+        <small class="list-group-item-text">
+            Criado em
+            <span data-ng-bind="tax.created | date: 'dd/MM/yyyy  h:mma'"></span>
+            por
+            <span data-ng-bind="tax.user.displayName"></span>
+        </small>        
     </div>
     <div class="col-md-12">
         <form class="form-horizontal" data-ng-submit="update()" novalidate>
@@ -13,9 +19,9 @@
 
                     <label class="control-label" for="type">Tipo</label>
                     <div class="controls">
-                        <select class="form-control" data-ng-options="o.name for o in types" id="type" required 
-                                data-ng-bind="tax.type">
-                        </select>
+                        <select class="form-control" data-ng-options="o._id as o.name for o in types" id="type" required 
+                                data-ng-model="tax.type._id">
+                        </select>                     
                     </div>
 
                     <label class="control-label" for="value">Value</label>
@@ -32,7 +38,7 @@
                     </div>                    
                 </div>
                 <div class="form-group">
-                    <input type="submit" value="Update" class="btn btn-default">
+                    <input type="submit" value="Update" class="btn btn-success">
                 </div>
 				<div data-ng-show="error" class="text-danger">
 					<strong data-ng-bind="error"></strong>

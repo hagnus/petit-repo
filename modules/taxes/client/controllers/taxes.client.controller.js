@@ -9,10 +9,10 @@ angular.module('taxes').controller('TaxesController', ['$scope', '$stateParams',
 		$scope.create = function() {
 			// Create new Tax object
 			var tax = new Taxes ({
-				name: this.name,
-				type: this.selectedType._id,
-				value: this.value,
-				description: this.description	
+				name: $scope.name,
+				type: $scope.selectedType._id,
+				value: $scope.value,
+				description: $scope.description	
 			});
 
 			// Redirect after save
@@ -48,7 +48,7 @@ angular.module('taxes').controller('TaxesController', ['$scope', '$stateParams',
 			//tax.type = $scope.selectedType._id;
 
 			tax.$update(function() {
-				$location.path('taxes/' + tax._id);
+				$location.path('taxes');
 			}, function(errorResponse) {
 				$scope.error = errorResponse.data.message;
 			});

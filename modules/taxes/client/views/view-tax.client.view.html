@@ -1,6 +1,9 @@
 <section data-ng-controller="TaxesController" data-ng-init="findOne()">
 	<div class="page-header">
 		<h1 data-ng-bind="tax.name"></h1>
+        <h3 data-ng-bind="tax.type.name"></h3>
+        <h3 data-ng-bind="tax.value"></h3>
+        <h3 data-ng-bind="tax.description"></h3>		
 	</div>
 	<div class="pull-right" data-ng-show="authentication.user._id == tax.user._id">
 		<a class="btn btn-primary" href="/#!/taxes/{{tax._id}}/edit">

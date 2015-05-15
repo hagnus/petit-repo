@@ -77,7 +77,7 @@ exports.delete = function(req, res) {
  * List of Taxes
  */
 exports.list = function(req, res) { 
-	var populateQuery = [{path:'user', select:'displayName'}, {path:'type', select:'displayName'}];
+	var populateQuery = [{path:'user', select:'displayName'}, {path:'type', select:'_id name tag'}];
 
 	Tax.find().sort('-created').populate(populateQuery).exec(function(err, taxes) {
 		if (err) {
@@ -94,7 +94,7 @@ exports.list = function(req, res) {
  * Tax middleware
  */
 exports.taxByID = function(req, res, next, id) { 
-	var populateQuery = [{path:'user', select:'displayName'}, {path:'type', select:'displayName'}];
+	var populateQuery = [{path:'user', select:'displayName'}, {path:'type', select:'_id name tag'}];
 
 	Tax.findById(id).populate(populateQuery).exec(function(err, tax) {
 		if (err) return next(err);
