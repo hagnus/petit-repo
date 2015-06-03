@@ -1,10 +1,11 @@
-<section data-ng-controller="TaxesController" data-ng-init="find()">
+<section data-ng-controller="TaxesController" data-ng-init="findAsync(pagingOptions.pageSize, pagingOptions.currentPage)">
 
     <div class="panel panel-warning">
         <div class="panel-heading">
             <h3>Impostos</h3>
             <div class="input-group">
-              <input type="text" class="form-control" ng-model="searchText" placeholder="Search for...">
+              <input type="text" class="form-control" ng-model="filterOptions.filterText" placeholder="Search for..."
+                     tooltip="Dica para realizar pesquisa">
               <span class="input-group-btn">
                 <button class="btn btn-warning" type="button">
                     <i class="glyphicon glyphicon-search"></i>
@@ -17,59 +18,65 @@
         </div>
 
         <div class="panel-body">
-            <table class="table table-hover table-bordered table-condensed table-responsive">
+            <table class="table table-hover table-bordered table-condensed table-responsive nopadding">
                 <thead data-ng-show="!taxes.$resolved || taxes.length">
                     <tr class="primary" >
-                        <th class="col-xs-2">Nome</th>
-                        <th class="col-xs-7">Tipo</th>
-                        <th class="col-xs-2">Valor</th>
-                        <th></th>
+                        <th class="col-md-6">
+                            <div class="pull-left"  data-ng-click="" >
+                                <i class="glyphicon glyphicon-search"></i>
+                            </div>                            
+                            <span>Nome</span>
+                        </th>
+                        <th class="col-md-2 hidden-xs">Tipo</th>
+                        <th class="col-md-2 ">Valor</th>
+                        <th class=""></th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr data-ng-repeat="tax in taxes | filter:searchText" >
+                    <tr data-ng-repeat="tax in taxes | filter:filterOptions.filterText" >
                         <td data-ng-bind="tax.name" ></td>
-                        <td data-ng-bind="tax.type.name"></td>
+                        <td class="hidden-xs" data-ng-bind="tax.type.name"></td>
                         <td class="text-right" data-ng-bind="tax.value | currency: 'R$ '"></td>
                         <td>
-                            <a class="btn btn-xs btn-danger"  data-ng-click="remove(tax);" >
-                            <i class="glyphicon glyphicon-trash"></i>
-                            </a>
+                            <button class="btn btn-xs btn-danger"  data-ng-click="remove(tax);" >
+                                <i class="glyphicon glyphicon-trash"></i>
+                            </button >
                             <a class="btn btn-xs btn-primary" href="/#!/taxes/{{tax._id}}/edit" >
-                            <i class="glyphicon glyphicon-pencil"></i>
+                                <i class="glyphicon glyphicon-pencil"></i>
                             </a>                        
                         </td>
                     </tr>
                 </tbody>
-            </table>             
+            </table>
 
-            <nav class="alert-warning navbar navbar-inverse">
-                <div class="btn-group" role="group">       
-                    <a class="btn btn-warning navbar-btn navbar-left" href="#" aria-label="Anterior">
-                        <span aria-hidden="true"></span>
-                        <i class="glyphicon glyphicon-chevron-left"></i>                        
-                    </a>
-                    <a class="btn btn-warning navbar-btn navbar-left" href="#" aria-label="1">
-                        <span aria-hidden="true"></span>
-                        1                        
-                    </a>
-                    <a class="btn btn-warning navbar-btn navbar-left" href="#" aria-label="2">
-                        <span aria-hidden="true"></span>
-                        2                        
-                    </a>
-                    <a class="btn btn-warning navbar-btn navbar-left" href="#" aria-label="3">
-                        <span aria-hidden="true"></span>
-                        3                        
-                    </a>
-                    <a class="btn btn-warning navbar-btn navbar-left" href="#" aria-label="Próximo">
-                        <span aria-hidden="true"></span>
-                        <i class="glyphicon glyphicon-chevron-right"></i>                        
-                    </a>
+            <nav class="navbar navbar-default panel-footer nopadding">
+                <div class="container-fluid">
+                    <ul class="nav navbar-nav">
+                        <li class="navbar-text">
+                            <pagination class="pagination-md  navbar-left nopadding" 
+                                        total-items="totalServerItems" ng-model="pagingOptions.currentPage" 
+                                        items-per-page="pagingOptions.pageSize" num-pages="smallnumPages" 
+                                        next-text="Próx." previous-text="Ant.">
+                            </pagination>                            
+                        </li>
+                        <li class="nav navbar-nav dropdown hidden-xs">
+                            <select class="navbar-text form-control" 
+                                    data-ng-options="psize for psize in pagingOptions.pageSizes" 
+                                    data-ng-model="pagingOptions.pageSize">
+                            </select>                            
+                        </li>
+                        <li class="navbar-text hidden-xs">
+                            <p class="">
+                                {{taxes.length}} de {{totalServerItems}}
+                            </p>
+                        </li>
+                    </ul>
                 </div>
-                <small class="navbar-text navbar-left">
-                    {{taxes.length}} Resultado(s) encontrado(s)               
-                </small>            
             </nav>
         </div>
-    </div>        
+    </div> 
+
+            <!--<div class="gridStyle table table-hover table-bordered table-condensed table-responsive" ng-grid="gridOptions">
+                
+            </div> -->           
 </section>

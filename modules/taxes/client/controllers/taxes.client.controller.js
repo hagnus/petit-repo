@@ -5,6 +5,67 @@ angular.module('taxes').controller('TaxesController', ['$scope', '$stateParams',
 	function($scope, $stateParams, $location, Authentication, Taxes, TaxTypes ) {
 		$scope.authentication = Authentication;
 
+	    $scope.pagingOptions = {
+	        pageSizes: [10, 25, 50],
+	        pageSize: 25,
+	        currentPage: 1,
+	        maxSize: 5
+	    };
+		$scope.filterOptions = {
+	        filterText: '',
+	        useExternalFilter: false
+	    }; 
+
+	    $scope.totalServerItems = 0;
+
+	    $scope.setPagingData = function(data, page, pageSize){	
+	        var pagedData = data.slice((page - 1) * pageSize, page * pageSize);
+
+	        $scope.taxes = pagedData;
+	        $scope.totalServerItems = data.length;
+	        $scope.pagingOptions.pageSize = pageSize;
+
+	        if (!$scope.$$phase) {
+	            $scope.$apply();
+	        }
+	    };
+
+	    $scope.findAsync = function (pageSize, page, searchText) {
+	        setTimeout(function () {
+	            var data;
+	            if (searchText) {
+	                var ft = searchText.toLowerCase();
+
+					Taxes.query().$promise.then(function (largeLoad) {		
+
+	                    data = largeLoad.filter(function(item) {
+	                        return JSON.stringify(item).toLowerCase().indexOf(ft) !== -1;
+	                    });
+
+	                    $scope.setPagingData(data,page,pageSize);
+					});
+
+	            } else {
+	            	Taxes.query().$promise.then(function (largeLoad) {
+	            		$scope.setPagingData(largeLoad,page,pageSize);
+	            	});
+	            }
+	        }, 100);
+	    };	    
+
+	    $scope.$watch('pagingOptions', function (newVal, oldVal) {
+	        if (newVal !== oldVal && 
+	        	(newVal.currentPage !== oldVal.currentPage || newVal.pageSize !== oldVal.pageSize)) {
+	          $scope.findAsync($scope.pagingOptions.pageSize, $scope.pagingOptions.currentPage, $scope.filterOptions.filterText);
+	        }
+	    }, true);
+
+	    $scope.$watch('filterOptions', function (newVal, oldVal) {
+	        if (newVal !== oldVal) {
+	          $scope.findAsync($scope.pagingOptions.pageSize, $scope.pagingOptions.currentPage, $scope.filterOptions.filterText);
+	        }
+	    }, true);		
+
 		// Create new Tax
 		$scope.create = function() {
 			// Create new Tax object

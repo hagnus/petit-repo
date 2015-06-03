@@ -3,8 +3,21 @@ body {
 	color: #8a6d3b;
 }
 
+a {
+	color: #8a6d3b
+}
+
+a:hover {
+	color: #8a6d3b
+}
+
 label {
 	color: #8a6d3b;
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
 }
 
 .content {

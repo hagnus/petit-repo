@@ -5,7 +5,8 @@ module.exports = {
 		lib: {
 			css: [
 				'public/lib/bootstrap/dist/css/bootstrap.css',
-				'public/lib/bootstrap/dist/css/bootstrap-theme.css'
+				'public/lib/bootstrap/dist/css/bootstrap-theme.css',
+				'public/lib/ng-grid/ng-grid.css'
 			],
 			js: [
 				'public/lib/angular/angular.js',
@@ -14,7 +15,9 @@ module.exports = {
 				'public/lib/angular-ui-router/release/angular-ui-router.js',
 				'public/lib/angular-ui-utils/ui-utils.js',
 				'public/lib/angular-bootstrap/ui-bootstrap-tpls.js',
-				'public/lib/angular-file-upload/angular-file-upload.js'
+				'public/lib/angular-file-upload/angular-file-upload.js',
+				'public/lib/jquery/dist/jquery.min.js',
+				'public/lib/ng-grid/build/ng-grid.debug.js'
 			],
 			tests: ['public/lib/angular-mocks/angular-mocks.js']
 		},
