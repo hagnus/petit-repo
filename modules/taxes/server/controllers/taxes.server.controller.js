@@ -15,12 +15,12 @@ var _ = require('lodash'),
  */
 exports.create = function(req, res) {
 	var tax = new Tax(req.body);
-	console.log('CRETE TAX');
-	console.log(req.user);
 	tax.user = req.user;
 
 	tax.save(function(err) {
 		if (err) {
+			console.log(err);
+			console.log(err.code);
 			return res.status(400).send({
 				message: errorHandler.getErrorMessage(err)
 			});

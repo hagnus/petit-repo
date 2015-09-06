@@ -50,33 +50,23 @@
             </table>
 
             <nav class="navbar navbar-default panel-footer nopadding">
-                <div class="container-fluid">
-                    <ul class="nav navbar-nav">
-                        <li class="navbar-text">
-                            <pagination class="pagination-md  navbar-left nopadding" 
-                                        total-items="totalServerItems" ng-model="pagingOptions.currentPage" 
-                                        items-per-page="pagingOptions.pageSize" num-pages="smallnumPages" 
-                                        next-text="Próx." previous-text="Ant.">
-                            </pagination>                            
-                        </li>
-                        <li class="nav navbar-nav dropdown hidden-xs">
-                            <select class="navbar-text form-control" 
-                                    data-ng-options="psize for psize in pagingOptions.pageSizes" 
-                                    data-ng-model="pagingOptions.pageSize">
-                            </select>                            
-                        </li>
-                        <li class="navbar-text hidden-xs">
-                            <p class="">
-                                {{taxes.length}} de {{totalServerItems}}
-                            </p>
-                        </li>
-                    </ul>
+                <div class="navbar-text">
+                    <pagination class="pagination-md  navbar-left nopadding" 
+                                total-items="totalServerItems" ng-model="pagingOptions.currentPage" 
+                                items-per-page="pagingOptions.pageSize" num-pages="smallnumPages" 
+                                next-text="Próx." previous-text="Ant.">
+                    </pagination>                            
+                </div>
+                <div class="nav navbar-nav dropdown hidden-xs">
+                    <select class="navbar-text form-control" 
+                            data-ng-options="psize for psize in pagingOptions.pageSizes" 
+                            data-ng-model="pagingOptions.pageSize">
+                    </select>                            
+                </div>
+                <div class="navbar-text hidden-xs">                           
+                    <p class="form-control">{{taxes.length}} de {{totalServerItems}}</p>
                 </div>
             </nav>
         </div>
-    </div> 
-
-            <!--<div class="gridStyle table table-hover table-bordered table-condensed table-responsive" ng-grid="gridOptions">
-                
-            </div> -->           
+    </div>          
 </section>

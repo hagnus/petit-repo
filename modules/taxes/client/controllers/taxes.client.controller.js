@@ -1,5 +1,26 @@
 'use strict';
 
+angular.module('taxes').directive('format', ['$filter', function ($filter) {
+    return {
+        require: '?ngModel',
+        link: function (scope, elem, attrs, ctrl) {
+            if (!ctrl) return;
+
+
+            ctrl.$formatters.unshift(function (a) {
+                return $filter(attrs.format)(ctrl.$modelValue)
+            });
+
+
+            ctrl.$parsers.unshift(function (viewValue) {
+                var plainNumber = viewValue.replace(/[^\d|\-+|\.+]/g, '');
+                elem.val($filter(attrs.format)(plainNumber));
+                return plainNumber;
+            });
+        }
+    };
+}]);
+
 // Taxes controller
 angular.module('taxes').controller('TaxesController', ['$scope', '$stateParams', '$location', 'Authentication', 'Taxes', 'TaxTypes',
 	function($scope, $stateParams, $location, Authentication, Taxes, TaxTypes ) {
