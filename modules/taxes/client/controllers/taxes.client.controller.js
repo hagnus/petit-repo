@@ -8,7 +8,7 @@ angular.module('taxes').directive('format', ['$filter', function ($filter) {
 
 
             ctrl.$formatters.unshift(function (a) {
-                return $filter(attrs.format)(ctrl.$modelValue)
+                return $filter(attrs.format)(ctrl.$modelValue);
             });
 
 
